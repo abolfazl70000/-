@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نورالهدی | پایگاه مذهبی</title>
+  <meta name="description" content="پایگاه مذهبی نورالهدی؛ قرآن، دعا، احادیث و مناسبت‌های اسلامی">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">☪️ نورالهدی</div>
+      <div class="nav-links">
+        <a href="#quran">قرآن</a>
+        <a href="#dua">دعاها</a>
+        <a href="#hadith">احادیث</a>
+        <a href="#events">مناسبت‌ها</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+      <h1>خانه‌ای برای دل‌های عاشق خدا</h1>
+      <p>قرآن، دعا، حدیث و یادآوری‌های معنوی در یک فضای ساده و آرام.</p>
+      <a class="button" href="#sections">شروع مطالعه</a>
+    </div>
+  </header>
+
+  <main id="sections" class="container">
+    <section class="welcome">
+      <h2>به نورالهدی خوش آمدید</h2>
+      <p>این نسخه نخست سایت است و می‌توانیم در ادامه قرآن کامل، دعاهای بیشتر، صوت، جست‌وجو و امکانات دیگر را به آن اضافه کنیم.</p>
+    </section>
+
+    <section class="cards">
+      <article class="card" id="quran">
+        <div class="icon">📖</div>
+        <h3>قرآن کریم</h3>
+        <p>متن و معرفی سوره‌های قرآن را در این بخش قرار می‌دهیم.</p>
+        <button onclick="showMessage('بخش قرآن در نسخه بعدی با سوره‌ها و متن کامل تکمیل می‌شود.')">ورود به قرآن</button>
+      </article>
+
+      <article class="card" id="dua">
+        <div class="icon">🤲</div>
+        <h3>دعا و زیارت</h3>
+        <p>دعاهای منتخب و زیارت‌نامه‌ها در این بخش قرار می‌گیرند.</p>
+        <button onclick="showMessage('بخش دعاها آماده توسعه است.')">مشاهده دعاها</button>
+      </article>
+
+      <article class="card" id="hadith">
+        <div class="icon">📜</div>
+        <h3>احادیث</h3>
+        <p>گزیده‌ای از سخنان ارزشمند پیامبر(ص) و اهل‌بیت(ع).</p>
+        <button onclick="showMessage('بخش احادیث در نسخه بعدی گسترده‌تر می‌شود.')">مشاهده احادیث</button>
+      </article>
+
+      <article class="card" id="events">
+        <div class="icon">🌙</div>
+        <h3>مناسبت‌های مذهبی</h3>
+        <p>مناسبت‌های مهم اسلامی و یادآوری روزهای معنوی.</p>
+        <button onclick="showMessage('تقویم مناسبت‌های مذهبی را می‌توانیم در مرحله بعد اضافه کنیم.')">مناسبت‌ها</button>
+      </article>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <p>أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ</p>
+      <span>سوره رعد، آیه ۲۸</span>
+    </section>
+
+    <section class="about">
+      <h2>درباره سایت</h2>
+      <p>نورالهدی یک پروژه شخصی و رایگان برای گردآوری محتوای مذهبی در یک محیط ساده و مناسب موبایل است.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© ۱۴۰۵ نورالهدی — با عشق به قرآن و اهل‌بیت(ع)</p>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>

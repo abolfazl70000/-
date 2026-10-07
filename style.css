@@ -1,0 +1,29 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f7f4ed;color:#27251f;line-height:1.9}
+.hero{background:linear-gradient(135deg,#173b2b,#24583f 55%,#98753a);color:#fff;padding-bottom:70px}
+.nav{max-width:1050px;margin:auto;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.logo{font-size:22px;font-weight:bold}
+.nav-links{display:flex;gap:18px;flex-wrap:wrap}
+.nav a{color:#fff;text-decoration:none}
+.hero-content{max-width:850px;margin:70px auto 0;padding:0 22px;text-align:center}
+.eyebrow{color:#f1d38b;font-size:18px}
+h1{font-size:clamp(30px,7vw,58px);line-height:1.35;margin:12px 0}
+.hero-content>p:not(.eyebrow){font-size:18px;opacity:.92}
+.button,button{display:inline-block;border:0;border-radius:12px;background:#c99b4b;color:#fff;padding:11px 20px;font:inherit;cursor:pointer;text-decoration:none}
+.container{max-width:1050px;margin:auto;padding:35px 18px}
+.welcome,.about{background:#fff;border-radius:20px;padding:25px;box-shadow:0 8px 30px #0000000d;margin-bottom:25px}
+h2{color:#173b2b;margin-top:0}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:#fff;border:1px solid #e7dfcf;border-radius:20px;padding:25px;box-shadow:0 8px 30px #0000000b}
+.icon{font-size:38px}
+.card h3{font-size:23px;margin:8px 0;color:#173b2b}
+.card p{color:#666}
+.quote{margin:30px 0;background:#173b2b;color:#fff;border-radius:20px;padding:35px;text-align:center}
+.quote-mark{font-size:45px;color:#d9b66b;height:35px}
+.quote p{font-size:25px;margin:10px}
+.quote span{color:#d9b66b}
+footer{padding:25px;text-align:center;background:#132d22;color:#ddd}
+.toast{position:fixed;bottom:20px;right:20px;left:20px;max-width:600px;margin:auto;background:#222;color:#fff;padding:14px 18px;border-radius:12px;text-align:center;opacity:0;transform:translateY(20px);transition:.25s;pointer-events:none}
+.toast.show{opacity:1;transform:translateY(0)}
+@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}.nav-links{gap:10px;font-size:14px}.hero{padding-bottom:45px}.hero-content{margin-top:35px}.cards{grid-template-columns:1fr}.card{padding:22px}}
